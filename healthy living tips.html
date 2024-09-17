@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="header2.css">
+<link rel="stylesheet" href="healthy Living tips.css">
+</head>
+<body>
+    <header>
+        <img src="images/main Logo.png" class="header-logo">
+       <a href="index.html" style="margin-left: 70px;"><i class="fas fa-home"></i>  Home</a>
+       <a href="disease-directory.html" style="margin-left: 30px;"><i class="fas fa-notes-medical"></i>  Disease Directory</a>
+       <a href="contact a doctor.html"><i class="fas fa-phone" ; style="transform: scaleX(-1)"></i> Contact a Doctor</a>
+       <a href="about us.html"><i class="fas fa-info-circle"></i>  About Us</a>
+       <div class="searchbar">
+        <button type="submit"><i class="fas fa-search"></i></button>
+        <input type="text" placeholder="Search">
+       </div>
+
+      </header>
+
+    <h6><i class="fas fa-heartbeat"></i> HEAlTHY LIVING TIPS</h6>
+    <hr style="border: none; height: 2px; background-color: rgb(255,212,202);">
+
+      <div class="sections-container">
+        <div class="sections-row">
+            <div class="image-container" id="image-container">
+
+           
+            <img src="images/nutrition.jpg" class="images">
+            <div class="transparent-sections">
+<a href="nutrition.html"> Nutrition</a>
+            </div>
+        
+        </div>
+        <div class="image-container" id="image-container2">
+
+           
+            <img src="images/exercise.jpg" class="images">
+            <div class="transparent-sections">
+ <a href="exercise.html"> Exercise</a>
+            </div>
+        
+        </div>
+    </div>
+    <div class="sections-row">
+        <div class="image-container" id="image-container3">
+
+           
+            <img src="images/mental.jpg" class="images">
+            <div class="transparent-sections">
+ <a href="Mental Health.html"> Mental Health</a>
+            </div>
+        
+        </div>
+
+    
+     
+            <div class="image-container" id="image-container4">
+
+           
+                <img src="images/hygine.jpg" class="images">
+                <div class="transparent-sections">
+ <a href="Hygiene.html"> Hygiene</a>
+                </div>
+            
+            </div>
+        </div>
+        
+      </div>
+      <div class="footer-container">
+        <footer>
+     
+                <div class="icons-line">
+                    <img src="images/facebook.png" class="socialMediaIcons">
+                    <a>NIAD.Facebook</a>
+                    <img src="images/instagram.png" class="socialMediaIcons">
+                     <a>NIAD.IG</a>
+                    <img src="images/twitter.png" class="socialMediaIcons">
+                     <a>NIAD.TwitterX</a>
+                     <img src="images/whatsapp.png" class="socialMediaIcons">
+                     <a>NIAD.Whatsapp</a>
+                </div>
+        </footer>
+        <div class="copyright">
+            <a> &copy; 2024 NIAD - Nigerian Association of Doctors. All Rights Reserved.
+            </a>
+        </div>
+    </div>
+    
+</body>
+<script>
+    // Create an array of section IDs
+const sectionIds = ['image-container', 'image-container2', 'image-container3', 'image-container4']; // Add more section IDs as needed
+
+// Loop through each section ID
+sectionIds.forEach(function(id) {
+// Select the section element
+const section = document.getElementById(id);
+
+// Add event listeners for mouseenter and mouseleave
+section.addEventListener('mouseenter', function() {
+  // Add the 'hovered' class to trigger the animation
+  section.classList.add('hovered');
+});
+
+section.addEventListener('mouseleave', function() {
+  // Remove the 'hovered' class to stop the animation
+  section.classList.remove('hovered');
+});
+});
+
+</script>   
+</html>

@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(206,249,242);
+
+}
+header{
+    background-color: rgb(46, 94, 170);
+    padding: 20px;
+    box-shadow:0 0 10px rgba(12,13,43,0.5);
+    display: flex;
+
+
+}
+
+header a{
+    margin-top: 8px;
+    font-size: 17px;
+    color:white;
+    margin-left: 20px;
+    margin-right: 14px;
+    font-family:Questrial;
+   font-optical-sizing: auto;
+   font-weight: 600;
+    text-decoration: none;
+
+}
+header a:hover{
+    color: rgb(255,212,202);
+    font-size:19px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color:rgba(0,100,0,0);
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin-left: 10px;
+
+
+}
+.searchbar input[type=text]{
+    width: 70%;
+    background-color: transparent;
+    font-family:Questrial;
+   font-optical-sizing: auto;
+   font-weight: 600;
+    text-decoration: none;
+
+    outline: none;
+    border:none;
+    font-size: 16px;
+    color: rgb(255,212,202);
+    margin-left: 20px;
+}
+input::placeholder{
+    color:  white;
+    margin-left: 10px;
+}
+.searchbar button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: none;
+
+}
+
+.header-logo{
+    width:15%;
+    height: 60px;
+}

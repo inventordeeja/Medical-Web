@@ -1,0 +1,86 @@
+@keyframes upAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+    100% {
+      transform: translateY(0); /* Move back to the original position */
+    }
+  }
+  
+  h6{
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: 700;
+  text-align: center;
+  color: rgb(10,42,19);
+  }
+  h6 a:hover{
+          color: rgb(28, 95, 47);
+          font-size:33px;
+      }
+  .sections-container{
+      display: block;
+      margin-top: 40px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: fit-content;
+  align-items: center;
+  align-content: center;
+  }
+  .sections-row{
+      display: flex;
+   margin-top: 50px;
+   align-items: center;
+   align-content: center;
+  }
+  .image-container{
+      position: relative;
+      display: block;
+      height: 300px;
+    width: 450px;
+    margin-right: 36px;
+     left: 25px;
+      
+     
+  }
+  .image-container .images{
+      width: inherit;
+      height: 300px;
+    margin-right: 36px;
+      margin-left: 20px;
+      box-shadow: 0 10px 30px rgb(0,0, 0,0.2);
+  }
+  .image-container .transparent-sections{
+      position: absolute;
+      top:95px;
+     left: 20px;
+      background-color: rgba(38, 84, 137, 0.7);
+      width: inherit;
+      height: 120px;    
+      text-align: center;
+      align-content: center;
+      font-family:"Montserrat", sans-serif;
+    color: whitesmoke;
+      font-size:20px;
+      font-weight: bold;
+      z-index: 1; /* Ensure overlay is above the image */
+  }
+  .image-container .transparent-sections a{
+      text-decoration: none;
+      color: inherit;
+  }
+  .image-container .transparent-sections a:hover{
+      color: rgba(3, 183, 54, 0.811);
+      font-size: 24px;
+      cursor: pointer;
+  }
+  .image-container.hovered{
+      animation: upAndDown 1s ease-in-out infinite;
+  }

@@ -1,0 +1,57 @@
+   
+h6{
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(10,42,19);
+    }
+    h6 a:hover{
+        color: rgb(28, 95, 47);
+        font-size:33px;
+    }
+    h3{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(10,42,19);
+    }
+    ul{
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-self: center;
+    background: rgb(46, 94, 170);
+    margin-top: 30px;
+    padding: 20px;
+    list-style-type:disc;
+    border-radius: 7px;
+    }
+    ul li{
+        font-family: 'Aileron';
+            src: url('fonts/Aileron-Black.otf') format('opentype');
+            font-weight: 900;
+        background:white;
+        color:black;
+        margin: 3px;
+        padding: 4px;
+        font-size:20px;
+        align-content: center;
+        height: 25px;
+    
+    }
+    ul :hover{
+        background: rgb(247, 181, 167);
+        height:30px;
+        color: black;
+    }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
